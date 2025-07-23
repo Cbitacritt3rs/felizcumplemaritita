@@ -114,7 +114,7 @@ html, body {
     position: absolute;
     height: 10%;
     width: 100%;
-    bottom: 0%;
+    bottom: 10%;
 }
 .mensajito4 {
     animation: moviVert 2s infinite linear;
