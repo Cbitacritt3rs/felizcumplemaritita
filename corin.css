@@ -114,14 +114,14 @@ html, body {
     position: absolute;
     height: 10%;
     width: 100%;
-    bottom: 10%;
+    bottom: 0%;
 }
 .mensajito4 {
     animation: moviVert 2s infinite linear;
     font-family: "Crafty Girls", cursive;
     color: rgb(83, 134, 62);
     position: relative;
-    font-size: 15px;
+    font-size: 18px;
     top: 20%;
 }
 
