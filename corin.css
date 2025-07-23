@@ -1,0 +1,167 @@
+html, body {
+    background-image: url(fondito.png);
+    background-color: black;
+    justify-items: center;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0%;
+}
+
+.contenedor {
+    aspect-ratio: 9 / 16;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    top: 0%;
+}
+@keyframes moviVert {
+    0% {
+        transform: translate(0,0);
+    }
+    50% {
+        transform: translate(0,10%);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}
+@keyframes apar {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.cesped1 {
+    background-image: url(imgs/cesped1.png);
+    background-size: 100%;
+    justify-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mensajito1 {
+    animation: moviVert 2s infinite linear;
+    font-family: "Crafty Girls", cursive;
+    color: rgb(218, 209, 255);
+    font-size: 25px;
+    position: relative;
+    top: 5%;
+}
+.activadorCesped1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.cesped2 {
+    background-image: url(imgs/cesped2.png);
+    background-size: 100%;
+    justify-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mensajito2 {
+    animation: moviVert 2s infinite linear;
+    font-family: "Crafty Girls", cursive;
+    color: rgb(250, 255, 209);
+    position: relative;
+    font-size: 25px;
+    top: 10%;
+}
+.activadorCesped2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.cesped3 {
+    background-image: url(imgs/cesped3.png);
+    background-size: 100%;
+    justify-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mensajito3 {
+    animation: moviVert 2s infinite linear;
+    font-family: "Crafty Girls", cursive;
+    color: rgb(230, 255, 209);
+    position: relative;
+    font-size: 25px;
+    top: 25%;
+}
+.activadorCesped3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.carta {
+    background-image: url(imgs/carta.png);
+    background-size: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.activadorCarta {
+    justify-items: center;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    bottom: 0%;
+}
+.mensajito4 {
+    animation: moviVert 2s infinite linear;
+    font-family: "Crafty Girls", cursive;
+    color: rgb(83, 134, 62);
+    position: relative;
+    font-size: 15px;
+    top: 20%;
+}
+
+.flor {
+    background-image: url(imgs/flor.png);
+    background-size: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.activadorFlor {
+    justify-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mensajito5 {
+    animation: moviVert 2s infinite linear;
+    font-family: "Crafty Girls", cursive;
+    color: rgb(253, 207, 226);
+    position: relative;
+    font-size: 15px;
+    top: 85%;
+}
+
+.luz {
+    background-image: url(imgs/luz.png);
+    background-size: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.cartAnim {
+    animation: apar 1s linear;
+}
+.florAnim {
+    animation: apar 0.5s linear;
+}
+.luzAnim {
+    animation: apar 2s linear;
+}
