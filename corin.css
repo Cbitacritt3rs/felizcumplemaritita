@@ -8,6 +8,7 @@ html, body {
 }
 
 .contenedor {
+    background-repeat: no-repeat;
     aspect-ratio: 9 / 16;
     position: relative;
     overflow: hidden;
@@ -37,6 +38,7 @@ html, body {
 
 .cesped1 {
     background-image: url(imgs/cesped1.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     justify-items: center;
     position: absolute;
@@ -59,6 +61,7 @@ html, body {
 
 .cesped2 {
     background-image: url(imgs/cesped2.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     justify-items: center;
     position: absolute;
@@ -81,6 +84,7 @@ html, body {
 
 .cesped3 {
     background-image: url(imgs/cesped3.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     justify-items: center;
     position: absolute;
@@ -103,6 +107,7 @@ html, body {
 
 .carta {
     background-image: url(imgs/carta.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
     height: 100%;
@@ -121,12 +126,13 @@ html, body {
     font-family: "Crafty Girls", cursive;
     color: rgb(83, 134, 62);
     position: relative;
-    font-size: 18px;
+    font-size: 15px;
     top: 20%;
 }
 
 .flor {
     background-image: url(imgs/flor.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
     height: 100%;
@@ -150,6 +156,7 @@ html, body {
 
 .luz {
     background-image: url(imgs/luz.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
     height: 100%;
